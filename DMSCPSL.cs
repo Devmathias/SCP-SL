@@ -27,7 +27,7 @@ namespace DMSCPSL
         {
             if (ev.Attacker.LeadingTeam == ev.Player.LeadingTeam)
             {
-                hook(ev.Attacker.Nickname +"Shot" + ev.Player.Nickname);
+                hook(ev.Attacker.Nickname +"  Shot  " + ev.Player.Nickname);
             }
         }
 
