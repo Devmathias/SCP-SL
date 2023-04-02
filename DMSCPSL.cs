@@ -22,6 +22,7 @@ namespace DMSCPSL
             }
         }
 
+
         private void OnDying(DyingEventArgs ev)
         {
             if (ev.Attacker.LeadingTeam == ev.Player.LeadingTeam)
@@ -40,7 +41,7 @@ namespace DMSCPSL
         }
         public void hook(string mess)
         {
-                string webhook = "WEBHOOK_HERE";
+                string webhook = Config.dchook;
 
                 WebClient client = new WebClient();
                 client.Headers.Add("Content-Type", "application/json");

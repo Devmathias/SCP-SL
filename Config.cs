@@ -12,8 +12,8 @@ namespace DMSCPSL
         [Description("Whether or not the plugin send tkinfo to discord webhook.")]
         public bool LogTk {get; set;} = true;
 
-        [Description("Discord Token")] 
-        public string dctoken {get; set;} = "token";
+        [Description("HookURL")] 
+        public string dchook {get; set;} = "HOOk";
 
 
 
