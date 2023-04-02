@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>SCP_SL</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+     <Reference Include="Exiled.Events">
+       <HintPath>Dlls\Exiled.Events.dll</HintPath>
+     </Reference>
+     <Reference Include="Exiled.API">
+       <HintPath>Dlls\Exiled.API.dll</HintPath>
+     </Reference>
+    </ItemGroup>
+</Project>
