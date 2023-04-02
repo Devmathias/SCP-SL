@@ -20,8 +20,15 @@ namespace DMSCPSL
             {
                 eHand.Player.Dying += OnDying;
             }
+            // eHand.Server.RoundStarted += OnRoundStarted;
         }
 
+        // private void OnRoundStarted()
+        // {
+        //     foreach (player in API.Player.Dictionary.all){
+
+        //     }
+        // }
 
         private void OnDying(DyingEventArgs ev)
         {
